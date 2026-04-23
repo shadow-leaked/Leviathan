@@ -1,0 +1,7 @@
+# Leviathan - Multi-agent simulation system
+# No external dependencies required for MVP
+# Pure Python 3.8+ standard library
+
+# Optional (for later dashboard):
+# flask>=2.0.0
+# networkx>=2.6

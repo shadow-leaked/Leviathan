@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-leviathan-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-leviathan-surface;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-leviathan-border rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-leviathan-text-muted;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-leviathan-surface border border-leviathan-border rounded-lg overflow-hidden;
+  }
+  
+  .panel-header {
+    @apply px-4 py-3 bg-leviathan-surface-light border-b border-leviathan-border font-mono text-sm uppercase tracking-wider text-leviathan-text-muted;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200 flex items-center gap-2;
+  }
+  
+  .btn-primary {
+    @apply btn bg-leviathan-primary text-leviathan-bg hover:bg-cyan-400;
+  }
+  
+  .btn-danger {
+    @apply btn bg-leviathan-danger/20 text-leviathan-danger border border-leviathan-danger/30 hover:bg-leviathan-danger/30;
+  }
+  
+  .btn-god {
+    @apply btn bg-leviathan-secondary/20 text-leviathan-secondary border border-leviathan-secondary/30 hover:bg-leviathan-secondary/30;
+  }
+  
+  .btn-ghost {
+    @apply btn bg-transparent text-leviathan-text-muted hover:text-leviathan-text hover:bg-leviathan-surface-light;
+  }
+  
+  .status-badge {
+    @apply px-2 py-1 rounded text-xs font-mono uppercase tracking-wider;
+  }
+  
+  .status-running {
+    @apply status-badge bg-leviathan-success/20 text-leviathan-success border border-leviathan-success/30;
+  }
+  
+  .status-paused {
+    @apply status-badge bg-leviathan-warning/20 text-leviathan-warning border border-leviathan-warning/30;
+  }
+  
+  .status-danger {
+    @apply status-badge bg-leviathan-danger/20 text-leviathan-danger border border-leviathan-danger/30;
+  }
+  
+  .terminal-text {
+    @apply font-mono text-sm;
+  }
+  
+  .stat-value {
+    @apply text-2xl font-bold text-leviathan-text;
+  }
+  
+  .stat-label {
+    @apply text-xs font-mono uppercase text-leviathan-text-muted tracking-wider;
+  }
+  
+  .progress-bar {
+    @apply h-2 bg-leviathan-surface-light rounded-full overflow-hidden;
+  }
+  
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-500;
+  }
+  
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+  }
+  
+  .grid-bg {
+    background-image: 
+      linear-gradient(to right, rgba(26, 26, 37, 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(26, 26, 37, 0.5) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px currentColor;
+  }
+
+  .scrollbar-visible {
+    scrollbar-width: thin;
+    scrollbar-color: #3a3a4a #1a1a27;
+  }
+
+  .scrollbar-visible::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollbar-visible::-webkit-scrollbar-track {
+    background: #1a1a27;
+    border-radius: 4px;
+  }
+
+  .scrollbar-visible::-webkit-scrollbar-thumb {
+    background: #3a3a4a;
+    border-radius: 4px;
+    border: 2px solid #1a1a27;
+  }
+
+  .scrollbar-visible::-webkit-scrollbar-thumb:hover {
+    background: #4a4a5a;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "tick": 200,
+  "npcs": {
+    "founder_00": {
+      "id": "founder_00",
+      "name": "Lira",
+      "gender": "female",
+      "age": 223,
+      "state": "active",
+      "vitals": {
+        "health": 90.73275896888836,
+        "energy": 34.14009747562328
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 40,
+        "y": 21
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_01": {
+      "id": "founder_01",
+      "name": "Vorn",
+      "gender": "male",
+      "age": 258,
+      "state": "active",
+      "vitals": {
+        "health": 85.13207585489643,
+        "energy": 29.82857243885307
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 25,
+        "y": 6
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_02": {
+      "id": "founder_02",
+      "name": "Sera",
+      "gender": "female",
+      "age": 243,
+      "state": "active",
+      "vitals": {
+        "health": 85.9681188009637,
+        "energy": 39.03954369891515
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 1,
+        "y": 40
+      },
+      "last_action": "gather_food",
+      "can_act": true
+    },
+    "founder_03": {
+      "id": "founder_03",
+      "name": "Tara",
+      "gender": "female",
+      "age": 242,
+      "state": "active",
+      "vitals": {
+        "health": 83.31656416904192,
+        "energy": 25.21261575279747
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 25,
+        "y": 32
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_04": {
+      "id": "founder_04",
+      "name": "Yara",
+      "gender": "female",
+      "age": 234,
+      "state": "active",
+      "vitals": {
+        "health": 87.33481732148717,
+        "energy": 29.40615912504256
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 9,
+        "y": 1
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_05": {
+      "id": "founder_05",
+      "name": "Nia",
+      "gender": "female",
+      "age": 235,
+      "state": "active",
+      "vitals": {
+        "health": 70.39429227071741,
+        "energy": 32.71355899670112
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 12,
+        "y": 29
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_06": {
+      "id": "founder_06",
+      "name": "Cael",
+      "gender": "male",
+      "age": 241,
+      "state": "active",
+      "vitals": {
+        "health": 96.32748236100394,
+        "energy": 28.4932227012693
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 39,
+        "y": 32
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_07": {
+      "id": "founder_07",
+      "name": "Dorn",
+      "gender": "male",
+      "age": 223,
+      "state": "active",
+      "vitals": {
+        "health": 85.13943995932492,
+        "energy": 41.47252809360732
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 34,
+        "y": 1
+      },
+      "last_action": "gather_food",
+      "can_act": true
+    },
+    "founder_08": {
+      "id": "founder_08",
+      "name": "Erik",
+      "gender": "male",
+      "age": 235,
+      "state": "active",
+      "vitals": {
+        "health": 78.05009859090296,
+        "energy": 28.52335261086041
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 20,
+        "y": 39
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_09": {
+      "id": "founder_09",
+      "name": "Zara",
+      "gender": "female",
+      "age": 236,
+      "state": "active",
+      "vitals": {
+        "health": 84.29179045286615,
+        "energy": 31.976036774758082
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 2,
+        "y": 16
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_10": {
+      "id": "founder_10",
+      "name": "Kael",
+      "gender": "male",
+      "age": 224,
+      "state": "active",
+      "vitals": {
+        "health": 79.922007493566,
+        "energy": 27.274363967804387
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_11": {
+      "id": "founder_11",
+      "name": "Vorn",
+      "gender": "male",
+      "age": 253,
+      "state": "active",
+      "vitals": {
+        "health": 76.7544891593631,
+        "energy": 34.83876850623953
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 33,
+        "y": 7
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_12": {
+      "id": "founder_12",
+      "name": "Sera",
+      "gender": "female",
+      "age": 229,
+      "state": "active",
+      "vitals": {
+        "health": 87.70271712570674,
+        "energy": 34.0386263002428
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 8,
+        "y": 14
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_13": {
+      "id": "founder_13",
+      "name": "Tara",
+      "gender": "female",
+      "age": 242,
+      "state": "active",
+      "vitals": {
+        "health": 96.51025421897668,
+        "energy": 28.126668890906128
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 20,
+        "y": 32
+      },
+      "last_action": "talk",
+      "can_act": true
+    },
+    "founder_14": {
+      "id": "founder_14",
+      "name": "Jor",
+      "gender": "male",
+      "age": 254,
+      "state": "active",
+      "vitals": {
+        "health": 100.0,
+        "energy": 38.90845063731717
+      },
+      "partner": null,
+      "children": [],
+      "parents": null,
+      "position": {
+        "x": 24,
+        "y": 35
+      },
+      "last_action": "gather_food",
+      "can_act": true
+    }
+  },
+  "resources": 1000.0,
+  "statistics": {
+    "births": 0,
+    "couples_formed": 0
+  }
+}
